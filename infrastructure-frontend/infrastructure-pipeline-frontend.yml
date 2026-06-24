@@ -1,0 +1,39 @@
+trigger:
+  branches:
+    include:
+    - main
+  paths:
+    include:
+    - front_end/infrastructure-frontend/*
+
+variables:
+- group: est-web-portal-frontend-secrets
+- group: est-web-portal-common
+- name: resourceGroupName
+  value: 'rg-eden-frontend-prod-ea'
+
+stages:
+- stage: InfrastructureDeploy
+  displayName: 'Deploy Frontend Infrastructure'
+  jobs:
+  - job: DeployInfrastructure
+    displayName: 'Deploy Bicep Templates'
+    pool:
+      name: 'Azure Pipelines'  
+    steps:
+    - checkout: self
+      displayName : 'Checkout Repository'
+
+    - task: AzureResourceManagerTemplateDeployment@3
+      displayName: 'Deploy Static Web App Infrastructure'
+      inputs:
+        deploymentScope: 'Resource Group'
+        azureResourceManagerConnection: $(azureServiceConnection)
+        action: 'Create Or Update Resource Group'
+        resourceGroupName: $(resourceGroupName)
+        location: $(location)
+        templateLocation: 'Linked artifact'
+        csmFile: '$(Build.SourcesDirectory)/infrastructure-frontend/main.frontend.bicep'
+        csmParametersFile: '$(Build.SourcesDirectory)/infrastructure-frontend/parameters.frontend.prod.json'
+        deploymentMode: 'Incremental'
+        deploymentOutputs: 'deploymentOutputs'

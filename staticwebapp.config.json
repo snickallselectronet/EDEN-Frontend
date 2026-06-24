@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "route": "/api/*",
+      "allowedRoles": ["anonymous"]
+    },
+    {
+      "route": "/index.html",
+      "redirect": "/portal/"
+    },
+    {
+      "route": "/",
+      "redirect": "/portal/"
+    },
+    {
+      "route": "/portal",
+      "rewrite": "/portal/index.html"
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/portal/index.html",
+    "exclude": [
+      "/portal/*.js",
+      "/portal/*.css",
+      "/portal/*.map",
+      "/portal/*.png",
+      "/portal/*.jpg",
+      "/portal/*.jpeg",
+      "/portal/*.gif",
+      "/portal/*.svg",
+      "/portal/*.ico",
+      "/portal/*.ttf",
+      "/portal/*.woff",
+      "/portal/*.woff2",
+      "/portal/assets/*",
+      "/api/*"
+    ]
+  },
+  "mimeTypes": {
+    ".json": "application/json",
+    ".js": "application/javascript", 
+    ".mjs": "application/javascript",
+    ".css": "text/css",
+    ".map": "application/json",
+    ".svg": "image/svg+xml",
+    ".png": "image/png",
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
+    ".gif": "image/gif",
+    ".ico": "image/x-icon",
+    ".woff": "font/woff",
+    ".woff2": "font/woff2",
+    ".ttf": "font/ttf",
+    ".eot": "application/vnd.ms-fontobject"
+  },
+  "globalHeaders": {
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Security-Policy": "default-src 'self' https://eden-backend-prod.azurewebsites.net https://dev.electronetgroup.nz https://*.auth0.com https://unpkg.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' data: blob: https://eden-backend-prod.azurewebsites.net https://dev.electronetgroup.nz https://*.auth0.com https://unpkg.com; frame-src 'self' https://eden-backend-prod.azurewebsites.net http://localhost:8000 https://dev-c4wgmu7pmattkcmu.us.auth0.com/ blob:"
+  }
+}

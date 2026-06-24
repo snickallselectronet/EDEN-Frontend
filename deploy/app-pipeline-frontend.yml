@@ -1,0 +1,116 @@
+trigger:
+  branches:
+    include:  
+    - main
+  paths:
+    exclude:
+    - infrastructure-frontend/*
+
+pr:
+  branches:
+    include:  
+    - main
+  paths:
+    exclude:
+    - infrastructure-frontend/*
+
+variables:
+- group: est-web-portal-frontend-secrets
+- name: buildConfiguration
+  value: 'Release'
+- name: nodeVersion
+  value: '18.x'
+- name: VITE_BASE_URL_BACKEND
+  value: 'https://eden-backend-prod.azurewebsites.net/'
+
+stages:
+- stage: Build
+  displayName: 'Build Frontend'
+  jobs:
+  - job: Build
+    displayName: 'Build and Package'
+    pool:
+      vmImage: 'ubuntu-latest'
+    
+    steps:
+    - task: NodeTool@0
+      displayName: 'Install Node.js'
+      inputs:
+        versionSpec: $(nodeVersion)
+    
+    - task: Npm@1
+      displayName: 'Install dependencies'
+      inputs:
+        command: 'install'
+        workingDir: '.'
+    
+    - task: Bash@3
+      displayName: 'Create production .env file'
+      inputs:
+        targetType: 'inline'
+        workingDirectory: '.'
+        script: |
+          echo "VITE_BASE_URL_BACKEND=${VITE_BASE_URL_BACKEND}" > .env
+          echo "VITE_BASE_URL_FRONTEND=/portal/" >> .env
+          echo "VITE_AUTH0_DOMAIN=$(AUTH0-DOMAIN)" >> .env
+          echo "VITE_AUTH0_CLIENT_ID=$(AUTH0-CLIENT-ID)" >> .env
+          echo "VITE_AUTH0_AUDIENCE=$(AUTH0-AUDIENCE)" >> .env
+          echo "VITE_AUTH0_ADDRESS=$(AUTH0-ADDRESS)" >> .env
+          echo "VITE_AUTH0_CALLBACK=$(AUTH0-CALLBACK)" >> .env
+    
+    - task: Npm@1
+      displayName: 'Build application'
+      inputs:
+        command: 'custom'
+        customCommand: 'run build'
+        workingDir: '.'
+
+    - task: Bash@3
+      displayName: 'Apply Azure Static Apps subdirectory workaround'
+      inputs:
+        targetType: 'inline'
+        workingDirectory: '.'
+        script: |
+          # Azure Static Apps subdirectory workaround
+          # 1. Copy index.html from dist/portal to dist root (to pass Azure's index.html check)
+          cp dist/portal/index.html dist/index.html
+          # 2. Copy staticwebapp.config.json to dist folder
+          cp staticwebapp.config.json dist/staticwebapp.config.json
+    
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish build artifacts'
+      inputs:
+        PathtoPublish: './dist'
+        ArtifactName: 'frontend-build'
+        publishLocation: 'Container'
+
+- stage: Deploy
+  displayName: 'Deploy to Azure Static Web Apps'
+  dependsOn: Build
+  condition: succeeded()
+  jobs:
+  - deployment: Deploy
+    displayName: 'Deploy Frontend'
+    pool:
+      vmImage: 'ubuntu-latest'
+    environment: 'production'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: DownloadBuildArtifacts@1
+            displayName: 'Download build artifacts'
+            inputs:
+              buildType: 'current'
+              downloadType: 'single'
+              artifactName: 'frontend-build'
+              downloadPath: '$(Agent.BuildDirectory)'
+          
+          - task: AzureStaticWebApp@0
+            displayName: 'Deploy to Azure Static Web Apps'
+            inputs:
+              cwd: '$(Agent.BuildDirectory)'
+              azure_static_web_apps_api_token: $(FRONTEND-DEPLOYMENT-TOKEN)
+              app_location: './frontend-build'
+              skip_app_build: true
+              skip_api_build: true

@@ -1,0 +1,2152 @@
+{
+    "client": "Demo",
+    "country": "NZ",
+    "fault_I": 2880.0,
+    "fault_s": 1.3,
+    "injected_I": 0.75,
+    "soil_R": 500.0,
+    "hres_key": "client-portal-photos/export_2025-06-13_1202Demo/HResPhotos/",
+    "lres_key": "client-portal-photos/export_2025-06-13_1202Demo/LResPhotos/",
+    "name": "Demo",
+    "VTRecord": [
+        {
+            "data": [
+                {
+                    "x": 0.0,
+                    "y": 1.5
+                },
+                {
+                    "x": 0.5,
+                    "y": 86.1
+                },
+                {
+                    "x": 1.0,
+                    "y": 104.7
+                },
+                {
+                    "x": 1.5,
+                    "y": 125.2
+                },
+                {
+                    "x": 2.0,
+                    "y": 135.7
+                },
+                {
+                    "x": 2.5,
+                    "y": 137.4
+                },
+                {
+                    "x": 3.0,
+                    "y": 134.5
+                },
+                {
+                    "x": 3.5,
+                    "y": 132.7
+                },
+                {
+                    "x": 4.0,
+                    "y": 113.8
+                },
+                {
+                    "x": 4.5,
+                    "y": 55.5
+                },
+                {
+                    "x": 5.0,
+                    "y": 49.1
+                },
+                {
+                    "x": 6.0,
+                    "y": 107.6
+                },
+                {
+                    "x": 8.0,
+                    "y": 172.7
+                },
+                {
+                    "x": 10.0,
+                    "y": 183.8
+                },
+                {
+                    "x": 34.94,
+                    "y": 193.6
+                },
+                {
+                    "x": 42.938,
+                    "y": 206.0
+                },
+                {
+                    "x": 59.644,
+                    "y": 215.8
+                },
+                {
+                    "x": 93.165,
+                    "y": 217.6
+                },
+                {
+                    "x": 145.095,
+                    "y": 221.9
+                },
+                {
+                    "x": 214.602,
+                    "y": 223.6
+                },
+                {
+                    "x": 295.972,
+                    "y": 224.0
+                }
+            ],
+            "name": "VT1",
+            "max_egvr": 0.999
+        }
+    ],
+    "EPRRecord": [
+        {
+            "data": [
+                {
+                    "x": 0.0,
+                    "y": -1.92384
+                },
+                {
+                    "x": 0.5,
+                    "y": -326.78783999999996
+                },
+                {
+                    "x": 1.0,
+                    "y": -398.21184000000005
+                },
+                {
+                    "x": 1.5,
+                    "y": -476.93184
+                },
+                {
+                    "x": 2.0,
+                    "y": -517.25184
+                },
+                {
+                    "x": 2.5,
+                    "y": -523.77984
+                },
+                {
+                    "x": 3.0,
+                    "y": -512.6438400000001
+                },
+                {
+                    "x": 3.5,
+                    "y": -505.73184
+                },
+                {
+                    "x": 4.0,
+                    "y": -433.15584
+                },
+                {
+                    "x": 4.5,
+                    "y": -209.28384
+                },
+                {
+                    "x": 5.0,
+                    "y": -184.70784
+                },
+                {
+                    "x": 6.0,
+                    "y": -409.34783999999996
+                },
+                {
+                    "x": 8.0,
+                    "y": -659.3318399999999
+                },
+                {
+                    "x": 10.0,
+                    "y": -701.9558400000001
+                },
+                {
+                    "x": 34.94,
+                    "y": -739.5878399999999
+                },
+                {
+                    "x": 42.938,
+                    "y": -787.20384
+                },
+                {
+                    "x": 59.644,
+                    "y": -824.8358400000001
+                },
+                {
+                    "x": 93.165,
+                    "y": -831.74784
+                },
+                {
+                    "x": 145.095,
+                    "y": -848.25984
+                },
+                {
+                    "x": 214.602,
+                    "y": -854.78784
+                },
+                {
+                    "x": 295.972,
+                    "y": -856.32384
+                }
+            ],
+            "name": "VT1",
+            "contour": "{2500.0: -1.0, 1500.0: -1.0, 650.0: -1.0, 430.0: -1.0}"
+        }
+    ],
+    "TSRecord": {
+        "PA": {
+            "total": 73,
+            "hazards": [
+                {
+                    "number": 53,
+                    "name": "RMU",
+                    "details": "42115",
+                    "value": 288.0,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-56-09.jpg",
+                    "latitude": -45.089202,
+                    "longitude": 169.61087
+                },
+                {
+                    "number": 39,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 235.4,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-37-08.jpg",
+                    "latitude": -45.088707,
+                    "longitude": 169.61147
+                },
+                {
+                    "number": 22,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 213.1,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-11-41.jpg",
+                    "latitude": -45.088828,
+                    "longitude": 169.610599
+                },
+                {
+                    "number": 56,
+                    "name": "Security Fence",
+                    "details": "",
+                    "value": 347.5,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-57-54.jpg",
+                    "latitude": -45.089094,
+                    "longitude": 169.610984
+                },
+                {
+                    "number": 51,
+                    "name": "RMU",
+                    "details": "42116",
+                    "value": 454.7,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-53-58.jpg",
+                    "latitude": -45.089219,
+                    "longitude": 169.610857
+                },
+                {
+                    "number": 12,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 204.5,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_10-59-44.jpg",
+                    "latitude": -45.088997,
+                    "longitude": 169.610616
+                },
+                {
+                    "number": 38,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 279.3,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-35-19.jpg",
+                    "latitude": -45.088534,
+                    "longitude": 169.611251
+                }
+            ],
+            "acceptable": [
+                {
+                    "number": 2,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 98.3,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_10-50-46.jpg",
+                    "latitude": -45.089418,
+                    "longitude": 169.610606
+                },
+                {
+                    "number": 10,
+                    "name": "Door",
+                    "details": "",
+                    "value": 13.4,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_10-58-11.jpg",
+                    "latitude": -45.089137,
+                    "longitude": 169.610569
+                },
+                {
+                    "number": 16,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 0.4,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-04-49.jpg",
+                    "latitude": -45.089247,
+                    "longitude": 169.610088
+                },
+                {
+                    "number": 89,
+                    "name": "Door",
+                    "details": "",
+                    "value": 0.3,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-29-51.jpg",
+                    "latitude": -45.089026,
+                    "longitude": 169.610899
+                },
+                {
+                    "number": 7,
+                    "name": "Ladder",
+                    "details": "",
+                    "value": 4.6,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_10-55-18.jpg",
+                    "latitude": -45.089275,
+                    "longitude": 169.610436
+                },
+                {
+                    "number": 46,
+                    "name": "Pole",
+                    "details": "",
+                    "value": 70.3,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-46-04.jpg",
+                    "latitude": -45.08909,
+                    "longitude": 169.612053
+                },
+                {
+                    "number": 1,
+                    "name": "Water Valve",
+                    "details": "",
+                    "value": 1.3,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_10-49-33.jpg",
+                    "latitude": -45.089448,
+                    "longitude": 169.610626
+                },
+                {
+                    "number": 29,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 49.8,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-28-08.jpg",
+                    "latitude": -45.088251,
+                    "longitude": 169.610929
+                },
+                {
+                    "number": 31,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 48.0,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-29-25.jpg",
+                    "latitude": -45.088408,
+                    "longitude": 169.610989
+                },
+                {
+                    "number": 5,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 130.2,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_10-53-52.jpg",
+                    "latitude": -45.089266,
+                    "longitude": 169.610609
+                },
+                {
+                    "number": 49,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 14.2,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-50-39.jpg",
+                    "latitude": -45.089753,
+                    "longitude": 169.610611
+                },
+                {
+                    "number": 57,
+                    "name": "Security Fence",
+                    "details": "Step",
+                    "value": 123.6,
+                    "limit": 5591.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-58-46.jpg",
+                    "latitude": -45.089117,
+                    "longitude": 169.61098
+                },
+                {
+                    "number": 61,
+                    "name": "Personnel Gate",
+                    "details": "",
+                    "value": 75.3,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-03-26.jpg",
+                    "latitude": -45.088831,
+                    "longitude": 169.611273
+                },
+                {
+                    "number": 18,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 1.1,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-06-57.jpg",
+                    "latitude": -45.088829,
+                    "longitude": 169.610101
+                },
+                {
+                    "number": 17,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 0.4,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-06-30.jpg",
+                    "latitude": -45.088858,
+                    "longitude": 169.610102
+                },
+                {
+                    "number": 6,
+                    "name": "Door",
+                    "details": "",
+                    "value": 28.8,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_10-54-39.jpg",
+                    "latitude": -45.089296,
+                    "longitude": 169.610587
+                },
+                {
+                    "number": 25,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 69.9,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-14-15.jpg",
+                    "latitude": -45.088407,
+                    "longitude": 169.610567
+                },
+                {
+                    "number": 52,
+                    "name": "RMU",
+                    "details": "42116",
+                    "value": 69.0,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-55-45.jpg",
+                    "latitude": -45.08909,
+                    "longitude": 169.612053
+                },
+                {
+                    "number": 8,
+                    "name": "Handrail",
+                    "details": "",
+                    "value": 6.9,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_10-55-48.jpg",
+                    "latitude": -45.089184,
+                    "longitude": 169.610457
+                },
+                {
+                    "number": 32,
+                    "name": "Stock Gate",
+                    "details": "",
+                    "value": 21.1,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-30-13.jpg",
+                    "latitude": -45.08848,
+                    "longitude": 169.611099
+                },
+                {
+                    "number": 20,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 0.7,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-10-23.jpg",
+                    "latitude": -45.088861,
+                    "longitude": 169.610427
+                },
+                {
+                    "number": 44,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 101.8,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-42-58.jpg",
+                    "latitude": -45.088915,
+                    "longitude": 169.612498
+                },
+                {
+                    "number": 86,
+                    "name": "Security Fence",
+                    "details": "",
+                    "value": 0.8,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-28-05.jpg",
+                    "latitude": -45.089031,
+                    "longitude": 169.610923
+                },
+                {
+                    "number": 35,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 11.9,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-32-14.jpg",
+                    "latitude": -45.088609,
+                    "longitude": 169.610752
+                },
+                {
+                    "number": 43,
+                    "name": "Pole",
+                    "details": "",
+                    "value": 3.8,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-40-53.jpg",
+                    "latitude": -45.08869,
+                    "longitude": 169.612339
+                },
+                {
+                    "number": 87,
+                    "name": "AC Unit",
+                    "details": "",
+                    "value": 0.6,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-28-38.jpg",
+                    "latitude": -45.089038,
+                    "longitude": 169.610873
+                },
+                {
+                    "number": 48,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 69.5,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-49-15.jpg",
+                    "latitude": -45.089447,
+                    "longitude": 169.611199
+                },
+                {
+                    "number": 45,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 188.9,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-44-10.jpg",
+                    "latitude": -45.089073,
+                    "longitude": 169.611979
+                },
+                {
+                    "number": 60,
+                    "name": "Security Fence",
+                    "details": "Step",
+                    "value": 99.8,
+                    "limit": 8000.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-02-11.jpg",
+                    "latitude": -45.089041,
+                    "longitude": 169.611179
+                },
+                {
+                    "number": 65,
+                    "name": "Security Fence",
+                    "details": "Step",
+                    "value": 61.1,
+                    "limit": 5591.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_12-07-54.jpg",
+                    "latitude": -45.088585,
+                    "longitude": 169.611236
+                },
+                {
+                    "number": 19,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 0.8,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-09-38.jpg",
+                    "latitude": -45.088864,
+                    "longitude": 169.610223
+                },
+                {
+                    "number": 41,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 58.8,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-39-01.jpg",
+                    "latitude": -45.088825,
+                    "longitude": 169.611804
+                },
+                {
+                    "number": 85,
+                    "name": "Vehicle Gate",
+                    "details": "",
+                    "value": 142.1,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-26-48.jpg",
+                    "latitude": -45.088976,
+                    "longitude": 169.610876
+                },
+                {
+                    "number": 13,
+                    "name": "Stock Gate",
+                    "details": "",
+                    "value": 1.9,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-00-23.jpg",
+                    "latitude": -45.088993,
+                    "longitude": 169.610585
+                },
+                {
+                    "number": 47,
+                    "name": "Stock Gate",
+                    "details": "",
+                    "value": 3.8,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-46-55.jpg",
+                    "latitude": -45.089225,
+                    "longitude": 169.611649
+                },
+                {
+                    "number": 62,
+                    "name": "Vehicle Gate",
+                    "details": "",
+                    "value": 94.5,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-04-07.jpg",
+                    "latitude": -45.088763,
+                    "longitude": 169.611197
+                },
+                {
+                    "number": 33,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 32.6,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-31-02.jpg",
+                    "latitude": -45.088561,
+                    "longitude": 169.610999
+                },
+                {
+                    "number": 42,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 3.8,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-39-56.jpg",
+                    "latitude": -45.08874,
+                    "longitude": 169.612064
+                },
+                {
+                    "number": 9,
+                    "name": "Steel Fence",
+                    "details": "",
+                    "value": 1.3,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_10-57-14.jpg",
+                    "latitude": -45.08918,
+                    "longitude": 169.6106
+                },
+                {
+                    "number": 59,
+                    "name": "Security Fence",
+                    "details": "",
+                    "value": 144.8,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-01-28.jpg",
+                    "latitude": -45.088945,
+                    "longitude": 169.611337
+                },
+                {
+                    "number": 14,
+                    "name": "Stock Gate",
+                    "details": "",
+                    "value": 15.4,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-01-48.jpg",
+                    "latitude": -45.089362,
+                    "longitude": 169.610323
+                },
+                {
+                    "number": 3,
+                    "name": "Door",
+                    "details": "",
+                    "value": 21.9,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_10-52-12.jpg",
+                    "latitude": -45.089371,
+                    "longitude": 169.610541
+                },
+                {
+                    "number": 27,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 82.6,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-25-03.jpg",
+                    "latitude": -45.087579,
+                    "longitude": 169.61236
+                },
+                {
+                    "number": 55,
+                    "name": "Tap",
+                    "details": "",
+                    "value": 175.1,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-57-29.jpg",
+                    "latitude": -45.089117,
+                    "longitude": 169.61098
+                },
+                {
+                    "number": 50,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 34.2,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-51-52.jpg",
+                    "latitude": -45.089749,
+                    "longitude": 169.610067
+                },
+                {
+                    "number": 34,
+                    "name": "Stock Gate",
+                    "details": "",
+                    "value": 0.2,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-31-45.jpg",
+                    "latitude": -45.0886,
+                    "longitude": 169.610799
+                },
+                {
+                    "number": 64,
+                    "name": "Personnel Gate",
+                    "details": "",
+                    "value": 176.6,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-05-40.jpg",
+                    "latitude": -45.088653,
+                    "longitude": 169.611258
+                },
+                {
+                    "number": 24,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 64.9,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-13-28.jpg",
+                    "latitude": -45.088415,
+                    "longitude": 169.610608
+                },
+                {
+                    "number": 58,
+                    "name": "Personnel Gate",
+                    "details": "",
+                    "value": 302.2,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-00-21.jpg",
+                    "latitude": -45.089041,
+                    "longitude": 169.611179
+                },
+                {
+                    "number": 54,
+                    "name": "RMU",
+                    "details": "42115",
+                    "value": 66.8,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-56-39.jpg",
+                    "latitude": -45.08909,
+                    "longitude": 169.612053
+                },
+                {
+                    "number": 67,
+                    "name": "Vehicle Gate",
+                    "details": "",
+                    "value": 85.6,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-10-39.jpg",
+                    "latitude": -45.088841,
+                    "longitude": 169.610839
+                },
+                {
+                    "number": 37,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 25.0,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-33-41.jpg",
+                    "latitude": -45.088742,
+                    "longitude": 169.61071
+                },
+                {
+                    "number": 26,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 62.6,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-15-10.jpg",
+                    "latitude": -45.088458,
+                    "longitude": 169.610479
+                },
+                {
+                    "number": 11,
+                    "name": "Steel Fence",
+                    "details": "",
+                    "value": 0.1,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_10-59-01.jpg",
+                    "latitude": -45.089059,
+                    "longitude": 169.610606
+                },
+                {
+                    "number": 83,
+                    "name": "Security Fence",
+                    "details": "",
+                    "value": 103.8,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-25-02.jpg",
+                    "latitude": -45.088877,
+                    "longitude": 169.610755
+                },
+                {
+                    "number": 30,
+                    "name": "Stock Gate",
+                    "details": "",
+                    "value": 1.0,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-28-49.jpg",
+                    "latitude": -45.088296,
+                    "longitude": 169.610908
+                },
+                {
+                    "number": 66,
+                    "name": "Security Fence",
+                    "details": "Step",
+                    "value": 48.0,
+                    "limit": 5591.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_12-09-27.jpg",
+                    "latitude": -45.088775,
+                    "longitude": 169.610771
+                },
+                {
+                    "number": 21,
+                    "name": "Stock Gate",
+                    "details": "",
+                    "value": 0.5,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-11-03.jpg",
+                    "latitude": -45.088867,
+                    "longitude": 169.610579
+                },
+                {
+                    "number": 36,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 109.8,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-33-13.jpg",
+                    "latitude": -45.08872,
+                    "longitude": 169.610696
+                },
+                {
+                    "number": 40,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 132.1,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-38-11.jpg",
+                    "latitude": -45.088866,
+                    "longitude": 169.611667
+                },
+                {
+                    "number": 84,
+                    "name": "Security Fence",
+                    "details": "Step",
+                    "value": 11.1,
+                    "limit": 8000.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-25-37.jpg",
+                    "latitude": -45.088721,
+                    "longitude": 169.611187
+                },
+                {
+                    "number": 4,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 0.4,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_10-52-58.jpg",
+                    "latitude": -45.089352,
+                    "longitude": 169.610435
+                },
+                {
+                    "number": 23,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 148.2,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-12-34.jpg",
+                    "latitude": -45.088674,
+                    "longitude": 169.610598
+                },
+                {
+                    "number": 28,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 35.7,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-26-27.jpg",
+                    "latitude": -45.087837,
+                    "longitude": 169.6118
+                },
+                {
+                    "number": 15,
+                    "name": "Stock Gate",
+                    "details": "",
+                    "value": 28.8,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-02-26.jpg",
+                    "latitude": -45.089381,
+                    "longitude": 169.610076
+                },
+                {
+                    "number": 63,
+                    "name": "Vehicle Gate",
+                    "details": "",
+                    "value": 160.9,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-05-09.jpg",
+                    "latitude": -45.088696,
+                    "longitude": 169.611211
+                }
+            ]
+        },
+        "RA": {
+            "total": 52,
+            "hazards": [
+                {
+                    "number": 98,
+                    "name": "Personnel Gate",
+                    "details": "Open",
+                    "value": 481.5,
+                    "limit": 192.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_12-37-28.jpg",
+                    "latitude": -45.08905,
+                    "longitude": 169.610945
+                },
+                {
+                    "number": 75,
+                    "name": "Generator",
+                    "details": "Door",
+                    "value": 221.6,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-16-28.jpg",
+                    "latitude": -45.088676,
+                    "longitude": 169.611121
+                },
+                {
+                    "number": 73,
+                    "name": "Generator",
+                    "details": "Door",
+                    "value": 240.4,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-15-09.jpg",
+                    "latitude": -45.088622,
+                    "longitude": 169.611143
+                }
+            ],
+            "acceptable": [
+                {
+                    "number": 78,
+                    "name": "Personnel Gate",
+                    "details": "",
+                    "value": 265.7,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-18-29.jpg",
+                    "latitude": -45.088628,
+                    "longitude": 169.611249
+                },
+                {
+                    "number": 125,
+                    "name": "Cable Termination Stand",
+                    "details": "",
+                    "value": 146.7,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-59-25.jpg",
+                    "latitude": -45.08883,
+                    "longitude": 169.611223
+                },
+                {
+                    "number": 123,
+                    "name": "Bus Support",
+                    "details": "",
+                    "value": 153.6,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-57-35.jpg",
+                    "latitude": -45.08887,
+                    "longitude": 169.611169
+                },
+                {
+                    "number": 79,
+                    "name": "Personnel Gate",
+                    "details": "Open",
+                    "value": 178.6,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-19-15.jpg",
+                    "latitude": -45.088695,
+                    "longitude": 169.611127
+                },
+                {
+                    "number": 121,
+                    "name": "Circuit Breaker",
+                    "details": "3612",
+                    "value": 172.4,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-55-34.jpg",
+                    "latitude": -45.088939,
+                    "longitude": 169.6111
+                },
+                {
+                    "number": 80,
+                    "name": "Vehicle Gate",
+                    "details": "",
+                    "value": 121.7,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-19-56.jpg",
+                    "latitude": -45.088682,
+                    "longitude": 169.6112
+                },
+                {
+                    "number": 72,
+                    "name": "Generator",
+                    "details": "Door",
+                    "value": 0.0,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-14-31.jpg",
+                    "latitude": -45.088645,
+                    "longitude": 169.611126
+                },
+                {
+                    "number": 120,
+                    "name": "Circuit Breaker",
+                    "details": "3622",
+                    "value": 81.4,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-54-50.jpg",
+                    "latitude": -45.089021,
+                    "longitude": 169.611088
+                },
+                {
+                    "number": 109,
+                    "name": "Light Pole",
+                    "details": "",
+                    "value": 129.8,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-46-07.jpg",
+                    "latitude": -45.088911,
+                    "longitude": 169.610841
+                },
+                {
+                    "number": 69,
+                    "name": "Vehicle Gate",
+                    "details": "",
+                    "value": 117.9,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-11-44.jpg",
+                    "latitude": -45.088792,
+                    "longitude": 169.610848
+                },
+                {
+                    "number": 117,
+                    "name": "Disconnector",
+                    "details": "3624",
+                    "value": 0.0,
+                    "limit": 143.0,
+                    "ground": "Metal",
+                    "photo": "2025-03-20_12-52-45.jpg",
+                    "latitude": -45.088957,
+                    "longitude": 169.611029
+                },
+                {
+                    "number": 115,
+                    "name": "Bus Support",
+                    "details": "",
+                    "value": 0.1,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-51-24.jpg",
+                    "latitude": -45.088953,
+                    "longitude": 169.611017
+                },
+                {
+                    "number": 93,
+                    "name": "Transformer",
+                    "details": "LST2",
+                    "value": 195.8,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-33-14.jpg",
+                    "latitude": -45.089025,
+                    "longitude": 169.61095
+                },
+                {
+                    "number": 92,
+                    "name": "Door",
+                    "details": "",
+                    "value": 0.6,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-32-31.jpg",
+                    "latitude": -45.089012,
+                    "longitude": 169.611044
+                },
+                {
+                    "number": 118,
+                    "name": "Disconnector",
+                    "details": "3614",
+                    "value": 0.0,
+                    "limit": 143.0,
+                    "ground": "Metal",
+                    "photo": "2025-03-20_12-53-19.jpg",
+                    "latitude": -45.088931,
+                    "longitude": 169.611051
+                },
+                {
+                    "number": 104,
+                    "name": "Vehicle Gate",
+                    "details": "",
+                    "value": 73.0,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-42-32.jpg",
+                    "latitude": -45.088767,
+                    "longitude": 169.611188
+                },
+                {
+                    "number": 122,
+                    "name": "Bus Support",
+                    "details": "",
+                    "value": 101.8,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-56-02.jpg",
+                    "latitude": -45.088899,
+                    "longitude": 169.611132
+                },
+                {
+                    "number": 101,
+                    "name": "Light Pole",
+                    "details": "",
+                    "value": 98.3,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-40-06.jpg",
+                    "latitude": -45.088923,
+                    "longitude": 169.611313
+                },
+                {
+                    "number": 107,
+                    "name": "Light Pole",
+                    "details": "",
+                    "value": 102.1,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-44-28.jpg",
+                    "latitude": -45.08877,
+                    "longitude": 169.611063
+                },
+                {
+                    "number": 116,
+                    "name": "Disconnector",
+                    "details": "3604",
+                    "value": 0.0,
+                    "limit": 143.0,
+                    "ground": "Metal",
+                    "photo": "2025-03-20_12-52-09.jpg",
+                    "latitude": -45.088965,
+                    "longitude": 169.611008
+                },
+                {
+                    "number": 119,
+                    "name": "Cable Termination Stand",
+                    "details": "11kV",
+                    "value": 0.0,
+                    "limit": 143.0,
+                    "ground": "Metal",
+                    "photo": "2025-03-20_12-53-54.jpg",
+                    "latitude": -45.08899,
+                    "longitude": 169.610987
+                },
+                {
+                    "number": 70,
+                    "name": "Fuel Tank",
+                    "details": "",
+                    "value": 0.4,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-12-45.jpg",
+                    "latitude": -45.088679,
+                    "longitude": 169.611037
+                },
+                {
+                    "number": 112,
+                    "name": "Vehicle Gate",
+                    "details": "Open",
+                    "value": 164.0,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-47-46.jpg",
+                    "latitude": -45.088968,
+                    "longitude": 169.610884
+                },
+                {
+                    "number": 113,
+                    "name": "Cabinet",
+                    "details": "Mobile Generator",
+                    "value": 102.9,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-48-54.jpg",
+                    "latitude": -45.088858,
+                    "longitude": 169.610992
+                },
+                {
+                    "number": 90,
+                    "name": "Comms Panel",
+                    "details": "",
+                    "value": 0.0,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-30-51.jpg",
+                    "latitude": -45.089044,
+                    "longitude": 169.610905
+                },
+                {
+                    "number": 82,
+                    "name": "Security Fence",
+                    "details": "",
+                    "value": 69.1,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-23-39.jpg",
+                    "latitude": -45.088721,
+                    "longitude": 169.611187
+                },
+                {
+                    "number": 110,
+                    "name": "RMU",
+                    "details": "46034",
+                    "value": 15.4,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-46-44.jpg",
+                    "latitude": -45.088929,
+                    "longitude": 169.610847
+                },
+                {
+                    "number": 94,
+                    "name": "Transformer",
+                    "details": "LST1",
+                    "value": 83.3,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-34-08.jpg",
+                    "latitude": -45.089073,
+                    "longitude": 169.611091
+                },
+                {
+                    "number": 95,
+                    "name": "Comms Mast",
+                    "details": "",
+                    "value": 0.1,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-34-42.jpg",
+                    "latitude": -45.089037,
+                    "longitude": 169.611055
+                },
+                {
+                    "number": 105,
+                    "name": "Vehicle Gate",
+                    "details": "Open",
+                    "value": 81.8,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-43-05.jpg",
+                    "latitude": -45.088926,
+                    "longitude": 169.611329
+                },
+                {
+                    "number": 81,
+                    "name": "Vehicle Gate",
+                    "details": "Open",
+                    "value": 158.6,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-22-21.jpg",
+                    "latitude": -45.088695,
+                    "longitude": 169.611127
+                },
+                {
+                    "number": 100,
+                    "name": "Security Fence",
+                    "details": "",
+                    "value": 99.1,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-39-38.jpg",
+                    "latitude": -45.088926,
+                    "longitude": 169.611329
+                },
+                {
+                    "number": 108,
+                    "name": "Security Fence",
+                    "details": "",
+                    "value": 128.3,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-45-23.jpg",
+                    "latitude": -45.08892,
+                    "longitude": 169.610814
+                },
+                {
+                    "number": 106,
+                    "name": "Security Fence",
+                    "details": "",
+                    "value": 102.5,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-44-01.jpg",
+                    "latitude": -45.088759,
+                    "longitude": 169.611065
+                },
+                {
+                    "number": 77,
+                    "name": "Vehicle Barrier",
+                    "details": "",
+                    "value": 171.3,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-17-56.jpg",
+                    "latitude": -45.088663,
+                    "longitude": 169.61115
+                },
+                {
+                    "number": 102,
+                    "name": "Personnel Gate",
+                    "details": "",
+                    "value": 99.8,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-40-35.jpg",
+                    "latitude": -45.088828,
+                    "longitude": 169.611259
+                },
+                {
+                    "number": 103,
+                    "name": "Personnel Gate",
+                    "details": "Open",
+                    "value": 161.3,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-41-13.jpg",
+                    "latitude": -45.088926,
+                    "longitude": 169.611329
+                },
+                {
+                    "number": 91,
+                    "name": "Switchgear",
+                    "details": "",
+                    "value": 0.2,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-31-44.jpg",
+                    "latitude": -45.08905,
+                    "longitude": 169.610945
+                },
+                {
+                    "number": 97,
+                    "name": "Personnel Gate",
+                    "details": "",
+                    "value": 17.3,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-36-26.jpg",
+                    "latitude": -45.089017,
+                    "longitude": 169.611187
+                },
+                {
+                    "number": 96,
+                    "name": "Security Fence",
+                    "details": "",
+                    "value": 94.8,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-35-26.jpg",
+                    "latitude": -45.089072,
+                    "longitude": 169.610989
+                },
+                {
+                    "number": 124,
+                    "name": "Transformer",
+                    "details": "T1",
+                    "value": 3.1,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-58-20.jpg",
+                    "latitude": -45.088854,
+                    "longitude": 169.611188
+                },
+                {
+                    "number": 99,
+                    "name": "Oil Separator",
+                    "details": "",
+                    "value": 0.4,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-38-23.jpg",
+                    "latitude": -45.088963,
+                    "longitude": 169.611234
+                },
+                {
+                    "number": 76,
+                    "name": "Vehicle Barrier",
+                    "details": "",
+                    "value": 177.4,
+                    "limit": 492.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-17-15.jpg",
+                    "latitude": -45.088695,
+                    "longitude": 169.611127
+                },
+                {
+                    "number": 74,
+                    "name": "Generator",
+                    "details": "Door",
+                    "value": 0.3,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-15-58.jpg",
+                    "latitude": -45.088657,
+                    "longitude": 169.61117
+                },
+                {
+                    "number": 88,
+                    "name": "Door",
+                    "details": "Open",
+                    "value": 3.8,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-29-19.jpg",
+                    "latitude": -45.089026,
+                    "longitude": 169.610899
+                },
+                {
+                    "number": 114,
+                    "name": "Disconnector",
+                    "details": "3634",
+                    "value": 0.0,
+                    "limit": 143.0,
+                    "ground": "Metal",
+                    "photo": "2025-03-20_12-49-49.jpg",
+                    "latitude": -45.088933,
+                    "longitude": 169.611007
+                },
+                {
+                    "number": 71,
+                    "name": "Security Fence",
+                    "details": "",
+                    "value": 0.8,
+                    "limit": 154.0,
+                    "ground": "Conc",
+                    "photo": "2025-03-20_12-13-39.jpg",
+                    "latitude": -45.088727,
+                    "longitude": 169.611018
+                },
+                {
+                    "number": 68,
+                    "name": "Vehicle Gate",
+                    "details": "Open",
+                    "value": 103.7,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-11-10.jpg",
+                    "latitude": -45.08882,
+                    "longitude": 169.610861
+                },
+                {
+                    "number": 111,
+                    "name": "Vehicle Gate",
+                    "details": "",
+                    "value": 123.5,
+                    "limit": 930.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-47-11.jpg",
+                    "latitude": -45.088968,
+                    "longitude": 169.610884
+                }
+            ]
+        },
+        "Step": {
+            "total": 5,
+            "hazards": [],
+            "acceptable": [
+                {
+                    "number": 57,
+                    "name": "Security Fence",
+                    "details": "Step",
+                    "value": 123.6,
+                    "limit": 5591.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-58-46.jpg",
+                    "latitude": -45.089117,
+                    "longitude": 169.61098
+                },
+                {
+                    "number": 60,
+                    "name": "Security Fence",
+                    "details": "Step",
+                    "value": 99.8,
+                    "limit": 8000.0,
+                    "ground": "CR",
+                    "photo": "2025-03-20_12-02-11.jpg",
+                    "latitude": -45.089041,
+                    "longitude": 169.611179
+                },
+                {
+                    "number": 65,
+                    "name": "Security Fence",
+                    "details": "Step",
+                    "value": 61.1,
+                    "limit": 5591.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_12-07-54.jpg",
+                    "latitude": -45.088585,
+                    "longitude": 169.611236
+                },
+                {
+                    "number": 66,
+                    "name": "Security Fence",
+                    "details": "Step",
+                    "value": 48.0,
+                    "limit": 5591.0,
+                    "ground": "NG",
+                    "photo": "2025-03-20_12-09-27.jpg",
+                    "latitude": -45.088775,
+                    "longitude": 169.610771
+                },
+                {
+                    "number": 84,
+                    "name": "Security Fence",
+                    "details": "Step",
+                    "value": 11.1,
+                    "limit": 8000.0,
+                    "ground": "Asph",
+                    "photo": "2025-03-20_12-25-37.jpg",
+                    "latitude": -45.088721,
+                    "longitude": 169.611187
+                }
+            ]
+        },
+        "limitStandard": "IEEE80",
+        "limits": {
+            "IECTouchSpecialNG": 127.0,
+            "IECTouchNormalNG": 192.0,
+            "IECStepSpecialNG": 3011.0,
+            "IECStepNormalNG": 5591.0,
+            "IECReachSpecialNG": 79.0,
+            "IECReachNormalNG": 79.0,
+            "IECTouchSpecialConc": 89.0,
+            "IECTouchNormalConc": 154.0,
+            "IECStepSpecialConc": 1497.0,
+            "IECStepNormalConc": 4077.0,
+            "IECReachSpecialConc": 79.0,
+            "IECReachNormalConc": 79.0,
+            "IECTouchSpecialCR": 427.0,
+            "IECTouchNormalCR": 492.0,
+            "IECStepSpecialCR": 8000.0,
+            "IECStepNormalCR": 8000.0,
+            "IECReachSpecialCR": 79.0,
+            "IECReachNormalCR": 79.0,
+            "IECTouchSpecialAsph": 865.0,
+            "IECTouchNormalAsph": 930.0,
+            "IECStepSpecialAsph": 8000.0,
+            "IECStepNormalAsph": 8000.0,
+            "IECReachSpecialAsph": 79.0,
+            "IECReachNormalAsph": 79.0,
+            "IECTouchSpecialChip": 153.0,
+            "IECTouchNormalChip": 217.0,
+            "IECStepSpecialChip": 4030.0,
+            "IECStepNormalChip": 6609.0,
+            "IECReachSpecialChip": 79.0,
+            "IECReachNormalChip": 79.0,
+            "IECTouchSpecialMetal": 79.0,
+            "IECTouchNormalMetal": 143.0,
+            "IECStepSpecialMetal": 1077.0,
+            "IECStepNormalMetal": 1077.0,
+            "IECReachSpecialMetal": 79.0,
+            "IECReachNormalMetal": 79.0
+        }
+    },
+    "ConRecord": {
+        "total": 35,
+        "high": [
+            {
+                "number": 12,
+                "name": "Transformer",
+                "details": "LST2 cable cover",
+                "value": 999.0,
+                "photo": "2025-03-20_13-49-57.jpg",
+                "latitude": -45.089005,
+                "longitude": 169.610933
+            },
+            {
+                "number": 16,
+                "name": "Transformer",
+                "details": "LST1 cable cover",
+                "value": 999.0,
+                "photo": "2025-03-20_13-53-18.jpg",
+                "latitude": -45.089078,
+                "longitude": 169.611045
+            }
+        ],
+        "acceptable": [
+            {
+                "number": 35,
+                "name": "Switchboard",
+                "details": "LV",
+                "value": 3.5,
+                "photo": "",
+                "latitude": -45.089031,
+                "longitude": 169.611008
+            },
+            {
+                "number": 4,
+                "name": "Light Pole",
+                "details": "",
+                "value": 3.7,
+                "photo": "",
+                "latitude": -45.088908,
+                "longitude": 169.61132
+            },
+            {
+                "number": 28,
+                "name": "Bus Support",
+                "details": "",
+                "value": 1.7,
+                "photo": "",
+                "latitude": -45.088883,
+                "longitude": 169.611149
+            },
+            {
+                "number": 18,
+                "name": "Cable Termination Stand",
+                "details": "",
+                "value": 2.0,
+                "photo": "",
+                "latitude": -45.089005,
+                "longitude": 169.611086
+            },
+            {
+                "number": 23,
+                "name": "Bus Support",
+                "details": "",
+                "value": 2.6,
+                "photo": "",
+                "latitude": -45.088916,
+                "longitude": 169.611023
+            },
+            {
+                "number": 21,
+                "name": "Disconnector",
+                "details": "3624",
+                "value": 1.7,
+                "photo": "",
+                "latitude": -45.088964,
+                "longitude": 169.61106
+            },
+            {
+                "number": 7,
+                "name": "Light Pole",
+                "details": "",
+                "value": 3.6,
+                "photo": "",
+                "latitude": -45.08875,
+                "longitude": 169.611027
+            },
+            {
+                "number": 27,
+                "name": "Bus Support",
+                "details": "",
+                "value": 1.5,
+                "photo": "",
+                "latitude": -45.0889,
+                "longitude": 169.611132
+            },
+            {
+                "number": 2,
+                "name": "Cable Termination Stand",
+                "details": "",
+                "value": 1.52,
+                "photo": "",
+                "latitude": -45.088856,
+                "longitude": 169.611209
+            },
+            {
+                "number": 25,
+                "name": "Disconnector",
+                "details": "3634",
+                "value": 2.2,
+                "photo": "",
+                "latitude": -45.088873,
+                "longitude": 169.610965
+            },
+            {
+                "number": 11,
+                "name": "Vehicle Gate",
+                "details": "",
+                "value": 4.0,
+                "photo": "",
+                "latitude": -45.088952,
+                "longitude": 169.610853
+            },
+            {
+                "number": 17,
+                "name": "Personnel Gate",
+                "details": "",
+                "value": 2.6,
+                "photo": "",
+                "latitude": -45.089007,
+                "longitude": 169.611189
+            },
+            {
+                "number": 6,
+                "name": "Security Fence",
+                "details": "",
+                "value": 2.2,
+                "photo": "",
+                "latitude": -45.088738,
+                "longitude": 169.611153
+            },
+            {
+                "number": 3,
+                "name": "Security Fence",
+                "details": "",
+                "value": 5.3,
+                "photo": "",
+                "latitude": -45.088922,
+                "longitude": 169.611344
+            },
+            {
+                "number": 34,
+                "name": "Switchgear",
+                "details": "",
+                "value": 2.3,
+                "photo": "",
+                "latitude": -45.089059,
+                "longitude": 169.610988
+            },
+            {
+                "number": 8,
+                "name": "Cabinet",
+                "details": "Mobile Generator",
+                "value": 5.3,
+                "photo": "",
+                "latitude": -45.088837,
+                "longitude": 169.610926
+            },
+            {
+                "number": 26,
+                "name": "CB",
+                "details": "3612",
+                "value": 4.15,
+                "photo": "",
+                "latitude": -45.088909,
+                "longitude": 169.611104
+            },
+            {
+                "number": 13,
+                "name": "Transformer",
+                "details": "LST2",
+                "value": 2.4,
+                "photo": "",
+                "latitude": -45.089005,
+                "longitude": 169.610933
+            },
+            {
+                "number": 33,
+                "name": "Protection Panel",
+                "details": "",
+                "value": 2.5,
+                "photo": "",
+                "latitude": -45.089038,
+                "longitude": 169.610964
+            },
+            {
+                "number": 29,
+                "name": "Generator",
+                "details": "",
+                "value": 3.2,
+                "photo": "",
+                "latitude": -45.088678,
+                "longitude": 169.611136
+            },
+            {
+                "number": 9,
+                "name": "RMU",
+                "details": "46034",
+                "value": 5.4,
+                "photo": "",
+                "latitude": -45.088918,
+                "longitude": 169.610818
+            },
+            {
+                "number": 15,
+                "name": "Transformer",
+                "details": "LST1",
+                "value": 2.4,
+                "photo": "2025-03-20_13-52-51.jpg",
+                "latitude": -45.089078,
+                "longitude": 169.611045
+            },
+            {
+                "number": 19,
+                "name": "Cable Termination Stand",
+                "details": "",
+                "value": 1.9,
+                "photo": "",
+                "latitude": -45.088978,
+                "longitude": 169.610975
+            },
+            {
+                "number": 10,
+                "name": "Light Pole",
+                "details": "",
+                "value": 3.1,
+                "photo": "",
+                "latitude": -45.088903,
+                "longitude": 169.610804
+            },
+            {
+                "number": 32,
+                "name": "RMU",
+                "details": "42115",
+                "value": 4.6,
+                "photo": "",
+                "latitude": -45.089133,
+                "longitude": 169.610925
+            },
+            {
+                "number": 22,
+                "name": "Disconnector",
+                "details": "3614",
+                "value": 2.2,
+                "photo": "",
+                "latitude": -45.088931,
+                "longitude": 169.611063
+            },
+            {
+                "number": 31,
+                "name": "RMU",
+                "details": "42116",
+                "value": 5.6,
+                "photo": "",
+                "latitude": -45.089161,
+                "longitude": 169.610893
+            },
+            {
+                "number": 1,
+                "name": "Reference",
+                "details": "T1",
+                "value": 0.52,
+                "photo": "2025-03-20_13-35-40.jpg",
+                "latitude": -45.088886,
+                "longitude": 169.611174
+            },
+            {
+                "number": 14,
+                "name": "Comms Mast",
+                "details": "",
+                "value": 2.6,
+                "photo": "",
+                "latitude": -45.089044,
+                "longitude": 169.611036
+            },
+            {
+                "number": 30,
+                "name": "Fuel Tank",
+                "details": "",
+                "value": 3.2,
+                "photo": "",
+                "latitude": -45.088704,
+                "longitude": 169.611012
+            },
+            {
+                "number": 24,
+                "name": "Cable Termination Stand",
+                "details": "",
+                "value": 1.7,
+                "photo": "",
+                "latitude": -45.088895,
+                "longitude": 169.610956
+            },
+            {
+                "number": 5,
+                "name": "Oil Separator",
+                "details": "",
+                "value": 4.2,
+                "photo": "",
+                "latitude": -45.088949,
+                "longitude": 169.611221
+            },
+            {
+                "number": 20,
+                "name": "Disconnector",
+                "details": "3604",
+                "value": 2.3,
+                "photo": "",
+                "latitude": -45.08896,
+                "longitude": 169.611024
+            }
+        ]
+    },
+    "CTInspRecord": {},
+    "CurrentDistRecord": {},
+    "VisualInspectionRecord": [
+        {
+            "number": 1,
+            "name": "CB",
+            "photos": "2025-03-20_14-16-29.jpg",
+            "locLat": -45.088982,
+            "locLong": 169.611019,
+            "overallCond": "Good",
+            "conductorSize": "70",
+            "conductorSizeCustom": "",
+            "corrosion": null,
+            "missing": false,
+            "damaged": null
+        },
+        {
+            "number": 2,
+            "name": "Disconnector",
+            "photos": "2025-03-20_14-17-27.jpg",
+            "locLat": -45.088953,
+            "locLong": 169.611022,
+            "overallCond": "Good",
+            "conductorSize": "70",
+            "conductorSizeCustom": "",
+            "corrosion": null,
+            "missing": false,
+            "damaged": null
+        },
+        {
+            "number": 5,
+            "name": "CB",
+            "photos": "2025-03-20_14-18-53.jpg, 2025-03-20_14-19-05.jpg",
+            "locLat": -45.08888,
+            "locLong": 169.611099,
+            "overallCond": "Good",
+            "conductorSize": "70",
+            "conductorSizeCustom": "",
+            "corrosion": null,
+            "missing": false,
+            "damaged": null
+        },
+        {
+            "number": 4,
+            "name": "Disconnector",
+            "photos": "2025-03-20_14-18-17.jpg",
+            "locLat": -45.088913,
+            "locLong": 169.611034,
+            "overallCond": "Good",
+            "conductorSize": "70",
+            "conductorSizeCustom": "",
+            "corrosion": null,
+            "missing": false,
+            "damaged": null
+        },
+        {
+            "number": 3,
+            "name": "Disconnector",
+            "photos": "2025-03-20_14-17-51.jpg",
+            "locLat": -45.088937,
+            "locLong": 169.61098,
+            "overallCond": "Good",
+            "conductorSize": "70",
+            "conductorSizeCustom": "",
+            "corrosion": null,
+            "missing": false,
+            "damaged": null
+        },
+        {
+            "number": 6,
+            "name": "Transformer",
+            "photos": "2025-03-20_14-19-28.jpg, 2025-03-20_14-19-34.jpg",
+            "locLat": -45.088842,
+            "locLong": 169.611174,
+            "overallCond": "Good",
+            "conductorSize": "70",
+            "conductorSizeCustom": "",
+            "corrosion": null,
+            "missing": false,
+            "damaged": null
+        }
+    ],
+    "MitigationSelection": [
+        {
+            "name": "Stock Fence Isolation Section",
+            "images": [
+                "/portal/isolation_stock_fence_1.png",
+                "/portal/isolation_stock_fence_2.png",
+                "/portal/isolation_section_stock_fence.png"
+            ],
+            "text": "The hazardous voltage measurements found on the stock fences can be mitigated by installing isolation sections along the span of the fence. Refer to the images below for examples of accepted stock fence isolation section installations.",
+            "additionalComments": "",
+            "carouselIndex": 0,
+            "appliedHazards": [
+                {
+                    "number": 39,
+                    "name": "Stock Fence",
+                    "details": "",
+                    "value": 235.4,
+                    "limit": 192,
+                    "ground": "NG",
+                    "photo": "2025-03-20_11-37-08.jpg",
+                    "latitude": -45.088707,
+                    "longitude": 169.61147
+                }
+            ]
+        }
+    ],
+    "qaStatus": {
+        "qa": {
+            "revision": "Rev00",
+            "qa_step": "prepare",
+            "preparer": "",
+            "prepare_date": "",
+            "reviewer": "",
+            "review_date": "",
+            "review_complete": "no",
+            "approver": "",
+            "approve_date": "",
+            "approve_complete": "no",
+            "comments": [
+                {
+                    "name": "Taehg Humphries",
+                    "comment": "pw test 1"
+                }
+            ],
+            "qa_log": []
+        }
+    },
+    "reportMisc": {
+        "reportNumber": "",
+        "projectNumber": null,
+        "revision": "Rev00",
+        "dateTested": null,
+        "testers": null,
+        "faultScenario": null,
+        "remoteInjectionMethod": null,
+        "distanceOfRods": null,
+        "directionOfRods": null,
+        "directionOfTraverse": null,
+        "soilData": "{}",
+        "faultData": null,
+        "ignore": 0
+    }
+}
