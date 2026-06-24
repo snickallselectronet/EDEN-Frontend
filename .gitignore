@@ -33,3 +33,5 @@ dist-ssr
 !.env.example
 set-keyvault-secrets-frontend.ps1
 example_tokens.txt
+
+src/assets/Fonts/
