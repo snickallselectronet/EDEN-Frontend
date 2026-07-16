@@ -1,5 +1,5 @@
 // ------------------------------------------------------------
-// App.tsx
+// File: src/App.tsx
 // ------------------------------------------------------------
 // Main authenticated React app for the ElectroNet client portal.
 // Handles:
@@ -10,7 +10,13 @@
 // ------------------------------------------------------------
 
 import { useEffect, useMemo, useState } from "react";
-import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
+import {
+  Routes,
+  Route,
+  useLocation,
+  useNavigate,
+  Navigate,
+} from "react-router-dom";
 import { CategoryScale } from "chart.js";
 import { PDFViewer } from "@react-pdf/renderer";
 import Chart from "chart.js/auto";
@@ -578,7 +584,12 @@ function AuthenticatedApp() {
 // App Wrapper
 // ------------------------------------------------------------
 function App() {
-  const { isLoading, isAuthenticated, loginWithRedirect } = useAuth0();
+  const { isLoading, isAuthenticated, loginWithRedirect, user } = useAuth0();
+
+  // Extract roles from the ID token to gate admin-only routes
+  const roles: string[] =
+    user?.["https://electronetclientportal.com/user/roles"] ?? [];
+  const isAdmin = roles.includes("ELECTRONET_ADMIN");
 
   useEffect(() => {
     if (!isLoading && !isAuthenticated) {
@@ -601,7 +612,10 @@ function App() {
     return (
       <Routes>
         <Route path="/" element={<AuthenticatedApp />} />
-        <Route path="/processing" element={<AdminProcessing />} />
+        <Route
+          path="/processing"
+          element={isAdmin ? <AdminProcessing /> : <Navigate to="/" replace />}
+        />
         <Route path="/:siteName/*" element={<AuthenticatedApp />} />
       </Routes>
     );
